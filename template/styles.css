@@ -1,0 +1,111 @@
+/* styles.css */
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  h1, p, a {
+    color: white;
+  }
+  
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height proportionally or use a specific height */
+  }
+
+  .menu {
+    position: relative;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid white; /* Add border properties */
+    padding: 5px 10px; /* Add padding for spacing */
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    color: rgb(126, 255, 13); /* Example style for hover state */
+  }
+  
+  .menu li a.active {
+    color: red; /* Example style for active state */
+  }
+
+  .slogan {
+    font-family: "Courier New", monospace; /* Set the font to Courier New */
+    font-size: 20px; /* Example font size */
+    color: white; /* Example font color */
+    text-align: center; /* Example text alignment */
+    margin-top: 10px; /* Example margin top */
+  }
+
+
+.separator {
+  border: none;
+  border-top: 1px solid white; /* Add a solid line */
+  margin: 10px 0; /* Adjust margin as needed */
+}
+
+/* For the button are the two below entries */
+
+.button-container {
+  text-align: center; /* Center the button horizontally */
+}
+
+.view-wall-button {
+  padding: 20px 20px; /* Adjust padding as needed */
+  font-size: 24px; /* Adjust font size as needed */
+  background-color: transparent; /* Optional: Set the background color of the button */
+  border: 2px solid white; /* Add border properties */
+  color: white; /* Set text color */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Footer stuff */
+
+.footer-content {
+  background-color: black; /* Set the background color of the footer */
+  padding: 20px; /* Add padding for spacing */
+  color: white; /* Set text color */
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Align items at the ends */
+  align-items: center; /* Center items vertically */
+}
+
+.footer-message {
+  font-family: "Courier New", monospace; /* Set the font to Courier New */
+  font-size: 12px; /* Adjust font size as needed */
+}
+
+.logo-container {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center items vertically */
+}
+
+.small-logo {
+  width: 60px; /* Adjust the width of the small logo */
+  height: auto; /* Adjust the height proportionally */
+  margin-right: 10px; /* Add margin for spacing */
+}
+
+.copyright {
+  height: auto; /* Adjust the height proportionally */
+  margin-right: 10px; /* Add margin for spacing */
+  font-family: "Courier New", monospace; /* Set the font to Courier New */
+  font-size: 8px; /* Adjust font size as needed */
+}
