@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +10,61 @@
 <body>
     <div id="txty">
         <h2>txty</h2>
-        <h3>A simple text based social network, that's meaniningful</h3>
+
+        <div class="top-right-fields">
+            <input type="text" id="title" placeholder="Enter username">
+            <input type="text" name="" id="body" placeholder="Enter password">
+            <button type="button" class="Login">Login</button>
+            <br>
+            
+            <button class="button1" class="Register">Register</button>
+            
+        </div>    
+
+
+
+        <h3>A simple text based social network, that's meaningful</h3>
         <div class="inputs">
-            <input type="text" id="title" placeholder="Enter note title">
-            <input type="text" name="" id="body" placeholder="Enter note body">
+            <input class="post1" id="title" placeholder="Enter post">
+            <button class="button2" class="add">Add post</button>
+            <br>
             <select id="colors">
-                <option>Select color</option>
-                <option value="#F6ADC6">Pink</option>
+                <option>Privacy status</option>
+                <option>Private</option>
+                <option>Public</option>
             </select>
-            <button type="button" class="add">Add note</button>
+            <br>
         </div>
         <div class="notesDiv"></div>
         <div class="note">
             <div class="text">
-                <b>learn react</b>
-                <p>take a react course</p>
+                <p>Main wall posts public/private</p>
             </div>
-            <button class="add">edit note</button>
-            <button class="delete">delete note</button>
+            <h3>@username1</h3>
+            <p>
+                This is a test post, eventually it will look better and have a nice boarder and verified icon, display pic etc. Watch this space.
+            </p>
+            <button class="add">add friend</button>
+            <button class="delete">favourite post</button>
         </div>
     </div>
+
+
+    <div class="note">
+        <div class="text">
+            <p>Main wall posts public/private</p>
+        </div>
+        <h3>@username2</h3>
+        <p>
+            Yet another test......
+        </p>
+        <button class="add">add friend</button>
+        <button class="delete">favourite post</button>
+    </div>
+</div>
+
+
 </body>
 </html>
+
+

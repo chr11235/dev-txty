@@ -1,0 +1,44 @@
+.top-right-fields {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  body {
+    background-color: #000000;
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+  h2 {
+    color: rgb(255, 255, 255);
+  }
+  h3 {
+    color: rgb(255, 255, 255);
+  }
+  h4 {
+    color: rgb(255, 255, 255);
+  }
+  p {
+    color: rgb(255, 255, 255);
+  }
+
+
+  .button1 {
+    width: 226px; /* Adjust the desired width value */
+    position: absolute;
+    top: 1;
+    right: 0;
+  }
+
+  .post1 {
+    width: 300px; /* Adjust the desired width value */
+    height: 30px; /* Adjust the desired width value */
+  }
+
+
+  .button2 {
+    height: 35px; /* Adjust the desired width value */
+
+  }
