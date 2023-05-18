@@ -109,3 +109,173 @@ body {
   font-family: "Courier New", monospace; /* Set the font to Courier New */
   font-size: 8px; /* Adjust font size as needed */
 }
+
+/* The wall page styles are below */
+
+.site-title {
+  /* Your custom CSS styles for the site title */
+  /* Example styles */
+  font-family: "Courier New", monospace; /* Set the font to Courier New */
+  font-size: 40px;
+  color: white;
+  text-align: left; /* Align the text to the left */
+  margin-top: 10px;
+  margin-left: 150px; /* Adjust the left margin as needed */
+  margin-bottom: 5px;
+}
+
+.user-posts {
+  border: 1px solid black; /* Main border for the user posts area */
+  padding: 20px;
+  margin-top: 1px;
+}
+
+.post {
+  border: 1px solid rgb(255, 255, 255); /* Border for individual posts */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 40px; /* Adjust the width of the profile picture */
+  height: 40px; /* Adjust the height of the profile picture */
+  border-radius: 50%; /* Display the picture as a circle */
+}
+
+.username-verification {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.username {
+  font-family: "Arial", monospace; /* Set the font to Courier New */
+  font-weight: bold;
+  margin-right: 5px; /* Adjust the margin as needed */
+}
+
+.verified-icon {
+  width: 20px; /* Adjust the width of the verified icon */
+  height: auto; /* Adjust the height proportionally */
+}
+
+.post-content {
+  font-family: "Courier New", monospace; /* Set the font to Courier New */
+  font-size: 12px;
+  /* Styles for the post content */
+}
+
+.post-content-wrapper {
+  border: 1px solid rgb(255, 255, 255); /* Border for the post content */
+  padding: 10px; /* Adjust padding as needed */
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+
+.post-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.favorite-button,
+.comment-button,
+.del-button {
+  padding: 8px 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.favorite-button:hover,
+.comment-button:hover,
+.del-button:hover {
+  background-color: #363636;
+}
+
+
+
+.new-post {
+  background-color: #000000;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-picturepost {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-text {
+  width: 99.2%;
+  padding: 8px 8p;
+  border: 1px solid #ffffff;
+  
+  resize: vertical;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.privacy-dropdown {
+  position: relative;
+}
+
+.privacy-select {
+  padding: 8px 10px;
+  border: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  appearance: none;
+  background-color: #000000;
+}
+
+.post-button {
+  padding: 8px 10px;
+  border: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  appearance: none;
+  background-color: #000000;
+}
+
+.post-button:hover {
+  background-color: #363636;
+}
+
+
+
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.tab-button.active {
+  background-color: #585858;
+  color: #ffffff;
+}
