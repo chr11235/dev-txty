@@ -279,3 +279,123 @@ body {
   background-color: #585858;
   color: #ffffff;
 }
+
+
+
+/*Profile secton*/
+
+
+.profile-page {
+  margin: 40px;
+}
+
+.profile-info {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.profile-picture {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: auto;
+  display: flex;
+
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255); /* Add this line */
+
+}
+
+.edit-picture-button {
+  padding: 8px 10px;
+  border: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  appearance: none;
+  background-color: #000000;
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.edit-picture-button:hover {
+  background-color: #363636;
+}
+
+.bio {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.bio-text {
+  width: 99.7%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.save-button {
+  padding: 8px 10px;
+  border: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  appearance: none;
+  background-color: #000000;
+}
+
+.save-button:hover {
+  background-color: #363636;
+}
+
+
+
+/* Register form simple css */
+
+
+.register-page {
+  margin: 20px;
+}
+
+.register-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.register-button {
+  padding: 8px 10px;
+  border: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  appearance: none;
+  background-color: #000000;
+}
+
+.register-button:hover {
+  background-color: #363636;
+}
